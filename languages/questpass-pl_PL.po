@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Questpass\n"
+"POT-Creation-Date: 2021-09-28 17:17+0200\n"
+"PO-Revision-Date: 2021-09-28 17:18+0200\n"
+"Last-Translator: Mateusz Gbiorczyk <mateusz@gbiorczyk.pl>\n"
+"Language-Team: Mateusz Gbiorczyk <mateusz@gbiorczyk.pl>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: questpass.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: vendor_prefixed\n"
+"X-Poedit-SearchPathExcluded-3: .\n"
+
+#: src/Error/FailedApiConnectionError.php:18
+msgid "Failed to connect with the Questpass API."
+msgstr "Połączenie z API Questpass nie powiodło się."
+
+#: src/Error/MissingApiConfigError.php:18
+msgid ""
+"Set up a connection to the Questpass system to be able to view questpasses."
+msgstr ""
+"Skonfiguruj połączenie z systemem Questpass, aby móc wyświetlać questpassy."
+
+#. translators: %1$s: PHP extensions
+#: src/Error/MissingPhpExtensionsError.php:32
+#, php-format
+msgid "The plugin requires the following PHP libraries to be enabled: %1$s."
+msgstr "Wtyczka wymaga włączenia następujących bibliotek PHP: %1$s."
+
+#. translators: %1$s: option label
+#: src/Error/QuestsDisabledError.php:22
+#, php-format
+msgid "To display quests, select the option %1$s."
+msgstr "Aby wyświetlać questpassy, zaznacz opcję %1$s."
+
+#: src/Error/ServiceInactiveError.php:18
+msgid "Your website is awaiting activation in the Questpass system."
+msgstr "Twój serwis oczekuje na aktywację w systemie Questpass."
+
+#: src/Plugin/Activation.php:54
+msgid "This plugin cannot be activated for the Multisite Network."
+msgstr "Ta wtyczka nie może być aktywowana dla sieci Multisite."
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Plugin/Links.php:54
+#, php-format
+msgid "%1$sSettings%2$s"
+msgstr "%1$sUstawienia%2$s"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Route/SubscriptionUserCallbackRoute.php:92
+#, php-format
+msgid "Sorry, an error occurred logging. Please %1$stry again%2$s."
+msgstr ""
+"Przepraszamy, podczas logowania wystąpił błąd. %1$sSpróbuj ponownie%2$s."
+
+#: src/Settings/Group/ApiConfigGroup.php:25
+msgid "Connection setup"
+msgstr "Konfiguracja połączenia"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Settings/Group/ApiConfigGroup.php:34
+#, php-format
+msgid ""
+"Configuration data can be found in the website settings in %1$sthe Questpass "
+"panel%2$s."
+msgstr ""
+"Dane konfiguracyjne znajdziesz w ustawieniach serwisu w %1$spanelu Questpass"
+"%2$s."
+
+#: src/Settings/Group/DisplayConfigGroup.php:23
+msgid "Questpasses display setup"
+msgstr "Konfiguracja wyświetlania questpassów"
+
+#: src/Settings/Group/LocationConfigGroup.php:25
+msgid "Questpasses position in text setup"
+msgstr "Konfiguracja położenia questpassów w treści"
+
+#: src/Settings/Group/LocationConfigGroup.php:32
+msgid "Hint"
+msgstr "Wskazówka"
+
+#: src/Settings/Group/LocationConfigGroup.php:40
+msgid ""
+"You can also select a questpass position manually by using the Questpass "
+"block while editing."
+msgstr ""
+"Możesz także ręcznie wybrać pozycję questpassa. Podczas edytowania wpisu "
+"wstaw w wybranym miejscu blok Questpass."
+
+#. translators: %1$s: option label
+#: src/Settings/Group/LocationConfigGroup.php:43
+#, php-format
+msgid ""
+"Option %1$s does not apply to the post preview. Logged-in editors will still "
+"be able to preview questpasses before saving posts."
+msgstr ""
+"Opcja %1$s nie dotyczy podglądu wpisu przy edycji. Zalogowani edytorzy nadal "
+"będą mogli sprawdzić jak wygląda questpass przed opublikowaniem zmian."
+
+#: src/Settings/Group/QuestActivationGroup.php:23
+msgid "Quest activation"
+msgstr "Włączenie questpassów"
+
+#: src/Settings/Option/ApiClientOption.php:39
+msgid "OAuth Client"
+msgstr ""
+
+#: src/Settings/Option/ApiSecretOption.php:39
+msgid "OAuth Secret"
+msgstr ""
+
+#: src/Settings/Option/ApiTokenOption.php:39
+msgid "Token"
+msgstr ""
+
+#: src/Settings/Option/CategoriesOption.php:51
+msgid "Select the posts categories for which questpasses should be displayed:"
+msgstr "Wybierz kategorie wpisów, na których mają się wyświetlać questpassy:"
+
+#: src/Settings/Option/DefaultPositionOption.php:39
+msgid "Select questpasses position in text:"
+msgstr "Wybierz na jakiej wysokości wpisu mają się wyświetlać questpassy:"
+
+#. translators: %1$s: break line tag, %2$s: open em tag, %3$s: close em tag
+#: src/Settings/Option/DefaultPositionOption.php:51
+#, php-format
+msgid ""
+"Higher %1$s%2$sThis option is recommended for websites where short texts "
+"(1500-2500 characters) predominate, eg. news articles or posts where video "
+"is a main part.%3$s"
+msgstr ""
+"Wyżej %1$s%2$sOpcja zalecana dla serwisów, w których przeważają krótkie "
+"wpisy (1500-2500 znaków) np. większość treści newsowych lub takich, w "
+"których główną treścią jest materiał wideo.%3$s"
+
+#. translators: %1$s: break line tag, %2$s: open em tag, %3$s: close em tag
+#: src/Settings/Option/DefaultPositionOption.php:58
+#, php-format
+msgid ""
+"Lower %1$s%2$sThis option is recommended for websites where long entries "
+"(more than 2500 characters) predominate, such as specialized articles.%3$s"
+msgstr ""
+"Niżej %1$s%2$sOpcja zalecana dla serwisów, w których przeważają długie wpisy "
+"(powyżej 2500 znaków), np. tematyczne artykuły specjalistyczne.%3$s"
+
+#: src/Settings/Option/DisplayQuestOption.php:40
+msgid "How to display Questpass in this post:"
+msgstr "Jak wyświetlić questpassa w tym wpisie:"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Settings/Option/DisplayQuestOption.php:52
+#, php-format
+msgid "According to %1$splugin settings%2$s"
+msgstr "Zgodnie z %1$sustawieniami wtyczki%2$s"
+
+#: src/Settings/Option/DisplayQuestOption.php:56
+msgid "Do not show questpasses"
+msgstr "Nie wyświetlaj questpassów"
+
+#: src/Settings/Option/EnableNewCategoriesOption.php:41
+msgid "Display questpasses in the newly added categories"
+msgstr "Wyświetlaj questpassy w nowo dodanych kategoriach"
+
+#: src/Settings/Option/HideForUsersOption.php:39
+msgid ""
+"Do not display questpasses for logged-in administrators, editors and authors"
+msgstr ""
+"Nie wyświetlaj questpassów zalogowanym administratorom, redaktorom i autorom"
+
+#: src/Settings/Option/MasterSwitchOption.php:39
+msgid "Display questpasses on the website"
+msgstr "Wyświetlaj questpassy na serwisie"
+
+#: src/Settings/Option/PostTypesOption.php:39
+msgid "Select the types of entries for which questpasses should be displayed:"
+msgstr "Wybierz typy wpisów, na których mają się wyświetlać questpassy:"
+
+#: src/Settings/PluginSettingsPage.php:141
+msgid "Sorry, you are not allowed to save plugin settings."
+msgstr "Przepraszamy, nie możesz zapisywać ustawień wtyczki."
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: src/Settings/PostSettingsForm.php:65 templates/views/settings.php:19
+msgid "Questpass"
+msgstr ""
+
+#: src/Settings/PostSettingsForm.php:104
+msgid "Sorry, you are not allowed to save post settings."
+msgstr "Przepraszamy, nie możesz zapisywać ustawień postów."
+
+#: templates/components/widgets/plugin_options.php:69
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: templates/components/widgets/status_alert.php:22
+msgid "The questpass display is set up correctly."
+msgstr "Wyświetlanie questpassów jest prawidłowo skonfigurowane."
+
+#: templates/views/settings.php:25
+msgid "Changes were successfully saved!"
+msgstr "Zmiany zostały zapisane!"
+
+#. Description of the plugin/theme
+msgid "Questpass plugin displays ads based on the idea of questvertising."
+msgstr "Wtyczka Questpass wyświetla reklamy oparte na idei questvertisingu."
+
+#. Author URI of the plugin/theme
+msgid "https://questpass.pl/"
+msgstr ""
